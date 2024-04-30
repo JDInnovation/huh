@@ -111,6 +111,7 @@ header img {
   box-shadow: 3px 3px 4px rgba(0,0,0,0.1) inset, 3px 3px 10px rgba(0,0,0,0.2) inset;
 }
 
+
 /* Estilos de formulário de e-mail */
 .email-box label, .email-box input[type="email"] {
   width: 100%;
@@ -144,7 +145,7 @@ header img {
   left: 0;
   right: 0;
   bottom: 0;
-  
+
   transition: opacity 100ms linear;
 }
 
@@ -237,3 +238,13 @@ animation: fadeIn 1s;
 .social-sidebar a:hover {
   color: #14f7ff; /* Você pode mudar a cor do hover conforme desejar */
 }
+
+
+@media (max-width: 800px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: magenta; /* Cor óbvia para testes */
+    height: 100vh;
+  }
+}
+
